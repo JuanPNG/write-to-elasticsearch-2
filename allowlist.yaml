@@ -1,0 +1,10 @@
+#Comment: YAML Allowed list of classes
+#List the classes, constructors, and builder methods for the Java cross-language transforms
+---
+version: v1
+allowedClasses:
+- className: org.apache.beam.sdk.io.elasticsearch.ElasticsearchIO
+  allowedConstructorMethods:
+    - write
+  allowedBuilderMethods:
+    - ConnectionConfiguration
